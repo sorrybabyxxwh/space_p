@@ -1,0 +1,41 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.navbar img {
+    background-color: red;
+    width: 25px;
+    height: 25px;
+
+}
+.navbar h3 {
+    margin: 0 50px;
+    color: white;
+}
+.navbarLinks{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+.navbarLinks li{
+    margin-right: 50px;
+    list-style: none;
+}
+.navbarLinks li a {
+    text-decoration: none;
+    color: white;
+}
+.navbarLinks li:hover{
+  border-bottom: white solid 2px;
+}
