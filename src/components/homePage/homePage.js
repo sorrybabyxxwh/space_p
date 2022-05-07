@@ -1,4 +1,6 @@
+import React from 'react'
 import classes from "./homePage.module.css";
+
 
 
 const HomePage = () =>{

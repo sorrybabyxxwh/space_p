@@ -4,9 +4,13 @@
     padding: 0;
 }
 
+
 .navbar{
+    z-index: 2000;
     display: flex;
+    position: fixed;
     height: 50px;
+    width: 100vw;
     align-items: center;
     justify-content: center;
     background-color: black;

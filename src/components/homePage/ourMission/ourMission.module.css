@@ -1,0 +1,30 @@
+.ourMissionSection {
+    background:
+            linear-gradient(to right, black, transparent),
+            url(https://grainy-gradients.vercel.app/noise.svg);
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    /*position: absolute;*/
+    /*top: 913px;*/
+    width: 100vw;
+
+
+}
+.ourMissionText{
+    padding-top: 15px;
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.whatOurMissionAbout{
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 90vw;
+    color: white;
+    font-size: 22px;
+}

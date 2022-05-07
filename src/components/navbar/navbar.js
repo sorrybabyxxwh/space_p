@@ -1,6 +1,7 @@
 import classes from "./navbar.module.css";
 const Navbar = () =>{
     return(
+        <div className={classes.sticky}>
         <nav className={classes.navbar}>
             <img src="https://cdn.worldvectorlogo.com/logos/space-raiders.svg" alt="logo"/>
             <h3>Space Protection</h3>
@@ -11,6 +12,7 @@ const Navbar = () =>{
                 <li><a href="#">CONTACT</a></li>
             </ul>
         </nav>
+        </div>
     )
 }
 export default Navbar;
