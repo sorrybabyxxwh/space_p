@@ -1,13 +1,37 @@
 .blogOnHomePage{
-    background-color: red;
+    display: block;
+    border-bottom: solid white 1px;
     height: 120px;
-    margin: 20px 0;
+    margin: 0 0;
+}
+.imgAndTextSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
 }
 .blogOnHomePageImg{
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin-right: 30px;
 }
 .blogTitle{
-
+    margin-left: 30px;
 }
 .blogReadMore{
-
+    display: inline-block;
+    float: right;
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.blogReadMore:hover{
+    cursor: pointer;
+    color: yellow;
+    border: solid yellow 1px;
 }

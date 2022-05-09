@@ -1,10 +1,10 @@
 .wholeSection{
+    padding-top: 15px;
 
-    background-color: green;
+    background-color: black;
     display: block;
     align-items: center;
     justify-content: center;
-    height: 15vh;
     /*position: absolute;*/
     /*top: 1245px;*/
     width: 100%;
@@ -12,11 +12,13 @@
 
 }
 .title{
-    width: 300px;
+    padding-top: 15px;
+    width: 350px;
     margin: 0 auto;
     text-align: center;
     color: white;
-    font-size: 22px;
+    font-size: 32px;
+    text-transform: uppercase;
 }
 .videoBlog{
     display: flex;
@@ -24,12 +26,26 @@
     padding: 40px;
 }
 .videoPlayer{
-    width: 50%;
     background-color: white;
     padding: 20px;
 }
 .blogSection{
-
-    background-color: pink;
-    padding: 20px;
+    padding: 0 20px;
+}
+.ourMissionSection{
+    background-color: black;
+}
+.OurMissionText{
+    padding-top: 20px;
+    color: white;
+    font-size: 28px;
+    margin: 0 auto;
+    text-align: center;
+}
+.aboutOurMission{
+    color: white;
+    font-size: 22px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
 }
