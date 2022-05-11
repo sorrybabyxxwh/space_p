@@ -24,10 +24,7 @@
     display: flex;
     background-color: black;
     padding: 40px;
-}
-.videoPlayer{
-    background-color: white;
-    padding: 20px;
+    justify-content: space-between;
 }
 .blogSection{
     padding: 0 20px;
@@ -48,4 +45,5 @@
     margin: 0 auto;
     text-align: center;
     padding: 15px;
+    width: 80%;
 }

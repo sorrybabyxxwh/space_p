@@ -1,13 +1,20 @@
 import classes from './blogOnHomeP.module.css'
 import React from 'react'
+import {Link} from "react-router-dom";
 
 const BlogOnHomeP = () => {
     return (
      <div className={classes.blogOnHomePage}>
          <div className={classes.imgAndTextSection}>
-             <img className={classes.blogOnHomePageImg} src="https://images.unsplash.com/photo-1638913662380-9799def8ffb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="blogHero"/>
+             <img className={classes.blogOnHomePageImg} src="https://dr.savee-cdn.com/things/6/2/7935f9f76552fdf177d037.jpg" alt="blogHero"/>
              <h2 className={classes.blogTitle}>Lorem ipsum dolor sit.</h2>
-             <button className={classes.blogReadMore}>Read More</button>
+             <div>
+                 <Link to='/blog'>
+                     <button className={classes.blogReadMore}>Read More</button>
+                 </Link>
+
+             </div>
+
          </div>
      </div>
     )
